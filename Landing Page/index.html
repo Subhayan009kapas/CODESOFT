@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boat</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon " href="https://www.boat-lifestyle.com/cdn/shop/files/D2C_LOGO_FILE_black_small.png?v=1721643415"/>
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="logo">
+        <img
+          src="https://www.boat-lifestyle.com/cdn/shop/files/D2C_LOGO_FILE_black_small.png?v=1721643415"
+        />
+      </div>
+      <div class="mid">
+        <ul>
+          <li class="Catagorise">Catagorise</li>
+          <li>boAt Parsonalisation</li>
+          <li>Gift with boAt</li>
+          <li>Corporate Orders</li>
+          <li>More</li>
+        </ul>
+      </div>
+      <div class="end">
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i
+          ><input type="text" placeholder="" />
+        </div>
+        <div class="user-icon"><img src="./user_icon.png" /></div>
+        <div class="cart"><img src="./shopping-bag.png" /></div>
+      </div>
+    </div>
+    <div class="com">
+      <div class="search-item">
+        <div class="component">
+          <p>Most Searched And Bought</p>
+        </div>
+      </div>
+      <div class="categorise-item"></div>
+    </div>
+    <!-- Image sliding -->
+
+    <div class="slider">
+      <div class="slides">
+        <img src="./sliding_image1.webp" />
+        <img src="./sliding image 2.webp" />
+        <img src="./slioding  image 3.webp" />
+        <img src="./sliding image 4.jpg" />
+      </div>
+      <div class="slide-btn">
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+      </div>
+      <div class="active-btn">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+    <!-- Image sliding -->
+
+    <!-- Services -->
+    <div class="services">
+      <div class="warrrenty">
+        <img src="./warranty.png" />
+        <p><b>1 year</b> Warranty</p>
+      </div>
+      <div class="replacement">
+        <img src="./replace.png" />
+        <p><b>7-day </b>Replacement</p>
+      </div>
+      <div class="free-delivery">
+        <img src="./free-delivery.png" />
+        <p><b>Free Express</b> Delivery*</p>
+      </div>
+      <div class="gst-billing">
+        <img src="./gst billing.png" />
+        <p><b>GST </b>Billing</p>
+      </div>
+    </div>
+    <!-- Services -->
+
+    <!-- section 1 card  -->
+
+    <div class="mansoon-fest">
+      <p>Monsoon<b> Fest</b></p>
+      <div class="offerimage">
+        <div class="overlay">
+          <h3>
+            <span
+              style="
+                position: relative;
+                right: 20px;
+                font-size: 25px;
+                bottom: 10px;
+              "
+              >Sales⭐ Ending In : </span
+            ><span class="days" style="font-size: 40px"></span>&nbsp
+            <span class="count">Days :</span>&nbsp
+            <span class="hour" style="font-size: 40px"></span> &nbsp<span
+              class="count"
+              >Hour :</span
+            >
+            &nbsp <span class="minute" style="font-size: 40px"></span>&nbsp<span
+              class="count"
+              >Minute :</span
+            >
+            &nbsp <span class="sec" style="font-size: 40px"></span>&nbsp<span
+              class="count"
+              >Sec</span
+            >&nbsp
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-section-1">
+      <div class="card">
+        <div class="img1"></div>
+        <div class="playback">120 Hours Playback</div>
+        <div class="detail-con">
+          <div class="detail">
+            <p class="product-name">Nirvana lon</p>
+            <div class="price">
+              <p style="font-weight: bold">₹1999</p>
+              <p style="text-decoration: line-through; font-size: 13px">
+                ₹7990
+              </p>
+              <p style="color: green; font-weight: 700; font-size: 13px">
+                75% off
+              </p>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="color-comb">
+              <div
+                class="div1"
+                style="background-color: rgb(151, 153, 155)"
+              ></div>
+              <div class="div2" style="background-color: black"></div>
+              <p>+5</p>
+            </div>
+
+            <div class="addtocart">
+              <button>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img2"></div>
+        <div class="playback">60 Hours Playback</div>
+        <div class="detail-con">
+          <div class="detail">
+            <p class="product-name">Airdops 131</p>
+            <div class="price">
+              <p style="font-weight: bold">₹899</p>
+              <p style="text-decoration: line-through; font-size: 13px">
+                ₹2990
+              </p>
+              <p style="color: green; font-weight: 700; font-size: 13px">
+                70% off
+              </p>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="color-comb">
+              <div class="div1" style="background-color: cadetblue"></div>
+              <div class="div2" style="background-color: darkgray"></div>
+              <p>+5</p>
+            </div>
+
+            <div class="addtocart">
+              <button>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img3"></div>
+        <div class="playback">40 Hours Playback</div>
+        <div class="detail-con">
+          <div class="detail">
+            <p class="product-name">Airdops 161</p>
+            <div class="price">
+              <p style="font-weight: bold">₹1049</p>
+              <p style="text-decoration: line-through; font-size: 13px">
+                ₹2490
+              </p>
+              <p style="color: green; font-weight: 700; font-size: 13px">
+                58% off
+              </p>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="color-comb">
+              <div class="div1"></div>
+              <div
+                class="div2"
+                style="background-color: rgb(109, 172, 228)"
+              ></div>
+              <p>+5</p>
+            </div>
+
+            <div class="addtocart">
+              <button>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img4"></div>
+        <div class="playback">42 Hours Playback</div>
+        <div class="detail-con">
+          <div class="detail">
+            <p class="product-name">Airdops 141</p>
+            <div class="price">
+              <p style="font-weight: bold">₹1299</p>
+              <p style="text-decoration: line-through; font-size: 13px">
+                ₹4490
+              </p>
+              <p style="color: green; font-weight: 700; font-size: 13px">
+                71% off
+              </p>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="color-comb">
+              <div class="div1"></div>
+              <div
+                class="div2"
+                style="background-color: rgb(229, 172, 172)"
+              ></div>
+              <p>+5</p>
+            </div>
+
+            <div class="addtocart">
+              <button>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section 1 card  -->
+
+    <!-- Best Seller start -->
+     <div class="bestSeller">
+      <p>Explore <b>Bestsellers</b></p>
+      <div class="components">
+        <div class="vid-con">
+          <div class="vid">
+            <video  id="hoverVideo"  muted>
+              <source src="BestSeller-1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <p align="center" style="font-size: 16px;font-weight: bold;">Smart Watch</p>
+
+        </div>
+        <div class="vid-con">
+          <div class="vid">
+            <video  id="hoverVideo" muted>
+              <source src="BestSeller-2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <p align="center" style="font-size: 16px;font-weight: bold;">Wireless Earbuds</p>
+
+        </div>
+
+        <div class="vid-con">
+          <div class="vid">
+            <video  id="hoverVideo" muted >
+
+              <source src="BestSeller3.mp4" type="video/mp4">
+            </video>
+          </div>
+          <p align="center" style="font-size: 16px;font-weight: bold;">Neckbands</p>
+
+        </div>
+      
+
+        <div class="vid-con">
+          <div class="vid">
+            <video  id="hoverVideo" muted >
+              <source src="bestSelleer-4.mp4" type="video/mp4">
+            </video>
+          </div>
+          <p align="center" style="font-size: 16px;font-weight: bold;">Headphones</p>
+        </div>
+        
+      </div>
+     </div>
+      <!-- Best Seller End -->
+
+
+      <!-- Top picks For You Section -->
+     <div class="top-pics">
+      <p id="heading">Top Picks <b>For You</b></p>
+
+      <div class="card-section-1">
+        <div class="card">
+          <div class="img5"></div>
+          <div class="playback">120 Hours Playback</div>
+          <div class="detail-con">
+            <div class="detail">
+              <p class="product-name">Nirvana lon</p>
+              <div class="price">
+                <p style="font-weight: bold">₹1999</p>
+                <p style="text-decoration: line-through; font-size: 13px">
+                  ₹7990
+                </p>
+                <p style="color: green; font-weight: 700; font-size: 13px">
+                  75% off
+                </p>
+              </div>
+            </div>
+            <div class="right-side">
+              <div class="color-comb">
+                <div
+                  class="div1"
+                  style="background-color: rgb(151, 153, 155)"
+                ></div>
+                <div class="div2" style="background-color: black"></div>
+                <p>+5</p>
+              </div>
+  
+              <div class="addtocart">
+                <button>Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img6"></div>
+          <div class="playback">60 Hours Playback</div>
+          <div class="detail-con">
+            <div class="detail">
+              <p class="product-name">Airdops 131</p>
+              <div class="price">
+                <p style="font-weight: bold">₹899</p>
+                <p style="text-decoration: line-through; font-size: 13px">
+                  ₹2990
+                </p>
+                <p style="color: green; font-weight: 700; font-size: 13px">
+                  70% off
+                </p>
+              </div>
+            </div>
+            <div class="right-side">
+              <div class="color-comb">
+                <div class="div1" style="background-color: cadetblue"></div>
+                <div class="div2" style="background-color: darkgray"></div>
+                <p>+5</p>
+              </div>
+  
+              <div class="addtocart">
+                <button>Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img7"></div>
+          <div class="playback">40 Hours Playback</div>
+          <div class="detail-con">
+            <div class="detail">
+              <p class="product-name">Airdops 161</p>
+              <div class="price">
+                <p style="font-weight: bold">₹1049</p>
+                <p style="text-decoration: line-through; font-size: 13px">
+                  ₹2490
+                </p>
+                <p style="color: green; font-weight: 700; font-size: 13px">
+                  58% off
+                </p>
+              </div>
+            </div>
+            <div class="right-side">
+              <div class="color-comb">
+                <div class="div1"></div>
+                <div
+                  class="div2"
+                  style="background-color: rgb(109, 172, 228)"
+                ></div>
+                <p>+5</p>
+              </div>
+  
+              <div class="addtocart">
+                <button>Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img8"></div>
+          <div class="playback">42 Hours Playback</div>
+          <div class="detail-con">
+            <div class="detail">
+              <p class="product-name">Airdops 141</p>
+              <div class="price">
+                <p style="font-weight: bold">₹1299</p>
+                <p style="text-decoration: line-through; font-size: 13px">
+                  ₹4490
+                </p>
+                <p style="color: green; font-weight: 700; font-size: 13px">
+                  71% off
+                </p>
+              </div>
+            </div>
+            <div class="right-side">
+              <div class="color-comb">
+                <div class="div1"></div>
+                <div
+                  class="div2"
+                  style="background-color: rgb(229, 172, 172)"
+                ></div>
+                <p>+5</p>
+              </div>
+  
+              <div class="addtocart">
+                <button>Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+      
+
+       <!-- Top picks For You Section -->
+
+
+       <!-- Shop by lifestyle start -->
+
+       <div class="shop-by-lifestyle">
+        <p>Shop by <b>Lifestyle</b></p>
+        <div class="pics-component">
+          <div class="pic">
+            <img src="lifestyle-1.webp"/>
+            <div class="bottom">
+              <p>For Fitness</p>
+              <p style="font-size: 14px; position: relative; left: 40px; top: 10px; color: rgb(28, 21, 104); " id="viewall" >View All <i class="fa-solid fa-circle-arrow-right"></i></p>
+            </div>
+          </div>
+          <div class="pic">
+            <img src="lifestyle-2.webp"/>
+            <div class="bottom">
+              <p>For Parties</p>
+              <p style="font-size: 14px; position: relative; left: 40px; top: 10px;  color: rgb(28, 21, 104);"id="viewall" >View All <i class="fa-solid fa-circle-arrow-right"></i></p>
+            </div>
+
+          </div>
+          <div class="pic">
+            <img src="lifestyle-3.webp"/>
+            <div class="bottom">
+              <p>For Work</p>
+              <p style="font-size: 14px; position: relative; left: 40px; top: 10px;  color: rgb(28, 21, 104);" id="viewall" >View All <i class="fa-solid fa-circle-arrow-right"></i></p>
+            </div>
+          </div>
+          <div class="pic">
+            <img src="lifestyle-4.webp"/>
+            <div class="bottom">
+              <p>For Audiophiles</p>
+              <p style="font-size: 14px; position: relative; left: 40px; top: 10px;  color: rgb(28, 21, 104);" id="viewall" >View All <i class="fa-solid fa-circle-arrow-right"></i></p>
+            </div>
+          </div>
+        </div>
+       </div>
+         <!-- Shop by lifestyle start -->
+
+         <!-- Best of BoAt Start -->
+          <div class="best-of-boat">
+            <p class="head">Best of <b>BoAt</b></p>
+            <div class="card-section-2" >
+              <div class="card" >
+                <div class="img9"></div>
+                <div class="playback">120 Hours Playback</div>
+                <div class="detail-con">
+                  <div class="detail">
+                    <p class="product-name">Nirvana lon</p>
+                    <div class="price">
+                      <p style="font-weight: bold">₹1999</p>
+                      <p style="text-decoration: line-through; font-size: 13px">
+                        ₹7990
+                      </p>
+                      <p style="color: green; font-weight: 700; font-size: 13px">
+                        75% off
+                      </p>
+                    </div>
+                  </div>
+                  <div class="right-side">
+                    <div class="color-comb">
+                      <div
+                        class="div1"
+                        style="background-color: rgb(151, 153, 155)"
+                      ></div>
+                      <div class="div2" style="background-color: black"></div>
+                      <p>+5</p>
+                    </div>
+        
+                    <div class="addtocart">
+                      <button>Add To Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="width: 330px;">
+                <div class="img10"></div>
+                <div class="playback">60 Hours Playback</div>
+                <div class="detail-con">
+                  <div class="detail">
+                    <p class="product-name">Airdops 131</p>
+                    <div class="price">
+                      <p style="font-weight: bold">₹899</p>
+                      <p style="text-decoration: line-through; font-size: 13px">
+                        ₹2990
+                      </p>
+                      <p style="color: green; font-weight: 700; font-size: 13px">
+                        70% off
+                      </p>
+                    </div>
+                  </div>
+                  <div class="right-side">
+                    <div class="color-comb">
+                      <div class="div1" style="background-color: cadetblue"></div>
+                      <div class="div2" style="background-color: darkgray"></div>
+                      <p>+5</p>
+                    </div>
+        
+                    <div class="addtocart">
+                      <button>Add To Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="width: 330px;">
+                <div class="img11"></div>
+                <div class="playback">40 Hours Playback</div>
+                <div class="detail-con">
+                  <div class="detail">
+                    <p class="product-name">Airdops 161</p>
+                    <div class="price">
+                      <p style="font-weight: bold">₹1049</p>
+                      <p style="text-decoration: line-through; font-size: 13px">
+                        ₹2490
+                      </p>
+                      <p style="color: green; font-weight: 700; font-size: 13px">
+                        58% off
+                      </p>
+                    </div>
+                  </div>
+                  <div class="right-side">
+                    <div class="color-comb">
+                      <div class="div1"></div>
+                      <div
+                        class="div2"
+                        style="background-color: rgb(109, 172, 228)"
+                      ></div>
+                      <p>+5</p>
+                    </div>
+        
+                    <div class="addtocart">
+                      <button>Add To Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="width: 330px;">
+                <div class="img12"></div>
+                <div class="playback">42 Hours Playback</div>
+                <div class="detail-con">
+                  <div class="detail">
+                    <p class="product-name">Airdops 141</p>
+                    <div class="price">
+                      <p style="font-weight: bold">₹1299</p>
+                      <p style="text-decoration: line-through; font-size: 13px">
+                        ₹4490
+                      </p>
+                      <p style="color: green; font-weight: 700; font-size: 13px">
+                        71% off
+                      </p>
+                    </div>
+                  </div>
+                  <div class="right-side">
+                    <div class="color-comb">
+                      <div class="div1"></div>
+                      <div
+                        class="div2"
+                        style="background-color: rgb(229, 172, 172)"
+                      ></div>
+                      <p>+5</p>
+                    </div>
+        
+                    <div class="addtocart">
+                      <button>Add To Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         <!-- Best of BoAt END-->
+
+
+
+         <!-- Join the Tribe Start -->
+
+         <div class="join-the-tribe">
+          <p class="head">Join the <b>Tribe</b></p>
+          <div class="video-sec">
+            <div class="vi">
+              <video id="vido" autoplay loop muted>
+                <source src="Tribe-vid-1.mp4" type="video/mp4">
+              </video>
+              <div class="mid-img">
+                <img src="./mid-img-1.webp"/>
+              </div>
+              <div class="nam-dam" >
+
+                <div class="name" >
+                  <p style="font-weight: bold;" align="center">Wave Glory Pro</p>
+                </div>
+                <div class="dam" style="display: flex; align-items: center; gap: 5px; margin-top: 10px; margin-left: 20px;" align="center">
+                  <p style="font-weight: bold;"> ₹ 2499</p>
+                  <p style="text-decoration: line-through;">₹ 11,990</p>
+                  <p style="font-weight: bold; color: green;">79% Off</p>
+                </div>
+              </div>
+
+              </div>
+             
+
+            <div class="vi">
+              <video id="vido" autoplay loop muted>
+                <source src="Tribe-vid-2.mp4" type="video/mp4">
+              </video>
+              <div class="mid-img">
+                <img src="./mid-img-2.webp"/>
+              </div>
+              <div class="nam-dam" >
+
+                <div class="name" >
+                  <p style="font-weight: bold;" align="center">Airpods 71</p>
+                </div>
+                <div class="dam" style="display: flex; align-items: center; gap: 5px; margin-top: 10px; margin-left: 20px;" align="center">
+                  <p style="font-weight: bold;"> ₹ 999</p>
+                  <p style="text-decoration: line-through;">₹ 3,990</p>
+                  <p style="font-weight: bold; color: green;">75% Off</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="vi">
+              <video id="vido" autoplay loop muted>
+                <source src="Tribe-vid-3.mp4" type="video/mp4">
+              </video>
+              <div class="mid-img">
+                <img src="./mid-img-3.webp"/>
+              </div>
+
+              <div class="nam-dam" >
+
+                <div class="name" >
+                  <p style="font-weight: bold;" align="center">Nirvana lon ANC</p>
+                </div>
+                <div class="dam" style="display: flex; align-items: center; gap: 5px; margin-top: 10px; margin-left: 20px;" align="center">
+                  <p style="font-weight: bold;"> ₹ 2499</p>
+                  <p style="text-decoration: line-through;">₹ 9,990</p>
+                  <p style="font-weight: bold; color: green;">75% Off</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="vi">
+              <video  id="vido" autoplay loop muted>
+                <source src="Tribe-vid-4.mp4" type="video/mp4">
+              </video>
+              <div class="mid-img">
+                <img src="./mid-img-4.webp"/>
+              </div>
+              <div class="nam-dam" >
+
+                <div class="name" >
+                  <p style="font-weight: bold;" align="center">Rockerz 245 V2 Pro</p>
+                </div>
+                <div class="dam" style="display: flex; align-items: center; gap: 5px; margin-top: 10px; margin-left: 20px;" align="center">
+                  <p style="font-weight: bold;"> ₹ 1,099</p>
+                  <p style="text-decoration: line-through;">₹ 3,490</p>
+                  <p style="font-weight: bold; color: green;">69% Off</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="vi">
+              <video  id="vido" autoplay loop muted>
+                <source src="Tribe-vid-5.mp4" type="video/mp4">
+              </video>
+              <div class="mid-img">
+                <img src="./mid-img-5.webp"/>
+              </div>
+              <div class="nam-dam" >
+
+                <div class="name" >
+                  <p style="font-weight: bold;" align="center">Airpods 131</p>
+                </div>
+                <div class="dam" style="display: flex; align-items: center; gap: 5px; margin-top: 10px; margin-left: 20px;" align="center">
+                  <p style="font-weight: bold;"> ₹ 899</p>
+                  <p style="text-decoration: line-through;">₹ 2,990</p>
+                  <p style="font-weight: bold; color: green;">70% Off</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="vi">
+              <video  id="vido" autoplay loop muted>
+                <source src="Tribe-vid-6.mp4" type="video/mp4">
+              </video>
+              <div class="mid-img">
+                <img src="./mid-img-6.webp"/>
+              </div>
+              <div class="nam-dam" >
+
+                <div class="name" >
+                  <p style="font-weight: bold;" align="center">Airpods 100</p>
+                </div>
+                <div class="dam" style="display: flex; align-items: center; gap: 5px; margin-top: 10px; margin-left: 20px;" align="center">
+                  <p style="font-weight: bold;"> ₹ 1089</p>
+                  <p style="text-decoration: line-through;">₹ 3,490</p>
+                  <p style="font-weight: bold; color: green;">79% Off</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+          <!-- Join the Tribe Start -->
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

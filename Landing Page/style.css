@@ -1,0 +1,622 @@
+*{
+          font-family: 'Segoe UI', Tahoma, sans-serif;
+         margin: 0;
+         padding: 0;
+}
+
+.nav{
+          height: 90px;
+          width: 100%;
+          background-color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+         
+          
+
+          
+}
+.mid ul li{
+          display: table-cell;
+          padding: 18px;
+          font-size: 18px;
+          cursor: pointer;
+          transition: transform 1s ease ;
+          
+}
+.mid ul li:hover{
+          font-weight: 500;
+          transform: scale(0.98);
+          text-decoration: underline 3px red;
+          text-underline-offset: 10px;
+          
+}
+.search{
+          height: 20px;
+          width: 280px;
+          background-color: rgb(216, 222, 226);
+          display: flex;
+          border-radius: 18px;
+          padding: 10px;
+          z-index: 1000;
+}
+.search i{
+          font-size: 20px;
+}
+.search input{
+          border: none;
+          outline: none;
+          background-color: rgb(216, 222, 226);
+          padding: 5px;
+}
+.end{
+          display: flex;
+          align-items: center;
+          gap: 20px;
+
+}
+.user-icon img{
+          height: 30px;
+}
+.cart img{
+          height: 30px;
+}
+.search-item{
+          height: 400px;
+          width: 295px;
+          background-color: rgb(254, 254, 253);
+          position: fixed;
+          left: 1348px;
+          top: 10px;
+          z-index:800 ;
+          display: none;
+          margin-top: 20px;
+}
+.search-item .component{
+          position: relative;
+          top: 50px;
+}
+.search-item .component p{
+          font-size: 16px;
+          font-weight: bold;
+          position: relative;
+          left: 5px;
+}
+.categorise-item{
+          height: 250px;
+          width: 188vh;
+          background-color: #fff;
+          position: fixed;
+         
+         margin-left: 100px;
+          display: none;
+          z-index: 1100;
+          
+          
+
+
+}
+.com{
+         
+          gap: 100px;
+}
+
+/* image sliding */
+
+.slides{
+          display: flex;
+          transition: transform 0.5s ease-in-out;
+          z-index: 1000;
+          
+         
+}
+
+.slides img{
+          width: 100%;
+          flex: 0 0 100%;
+         
+}
+.prev , .next{
+          height: 50px;
+          width: 50px;
+      position: relative;
+      bottom: 400px;
+      font-size: 30px;
+      border-radius: 50%;
+      cursor: pointer;
+   
+}
+.slide-btn{
+          display: flex;
+          align-items: center;
+          
+          gap: 1700px;
+          position: relative;
+          left: 50px;
+}
+/* image sliding */
+
+.active-btn{
+          height: 20px;
+          width: 100px;
+          background-color: #6a6767;
+          border-radius: 20px;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          position: relative;
+          left: 900px;
+          bottom: 100px;
+          
+}
+.active-btn .dot{
+          height: 15px;
+          width: 15px;
+          background-color: black;
+          border-radius: 50%;
+          position: relative;
+          left: 9px;
+
+}
+.active{
+          background-color: #fff;
+}
+.services{
+    display: flex;
+   
+    align-items: center;
+    gap: 150px;
+    position: relative;
+   position: relative;
+   left: 480px;
+   text-align: center;
+}
+.services p{
+    font: 20px;
+    position: relative;
+    top: 5px;
+}
+.warrrenty img{
+    height: 80px;
+
+}
+.replacement img{
+    height: 80px;
+
+}
+.free-delivery img{
+    height: 80px;
+
+}
+ .gst-billing img{
+
+    height: 80px;
+   
+}
+.mansoon-fest{
+    margin-top: 50px;
+    position: relative;
+    left: 310px;
+}
+
+.offerimage{
+    background-image: url("./mansoon_Fest.webp");
+    height: 140px;
+    width: 1300px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+}
+.overlay{
+    height: 140px;
+    width: 1300px;
+    border-radius: 10px;
+   
+   background-color: rgba(0,0,0,0.3);
+}
+.offerimage h3{
+    position: relative;
+    left: 400px;
+    color: #fff;
+    top: 50px;
+  
+}
+  
+
+.mansoon-fest p{
+    font-size: 20px;
+
+}
+.count{
+    position: relative;
+    bottom: 8px;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+.card-section-1{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    left: 310px;
+}
+.card-section-1 .card{
+    height: 440px;
+    width: 310px;
+    background-color: rgb(231, 228, 228);
+    border-radius: 10px;
+    transition: transform 1s ease;
+    cursor: pointer;
+
+}
+.card-section-1 .card:hover{
+    transform: scale(0.95);
+    
+}
+.card-section-1 .card .img1{
+    height: 330px;
+    width: 310px;
+    background-image: url("./airpod-1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.card-section-1 .card .img2{
+    height: 330px;
+    width: 310px;
+    background-image: url("./airpod-2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.card-section-1 .card .img3{
+    height: 330px;
+    width: 310px;
+    background-image: url("./airpod-3.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.card-section-1 .card .img4{
+    height: 330px;
+    width: 310px;
+    background-image: url("./airpod-4.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.playback{
+    height: 18px;
+    width: 180px;
+    background-color: rgb(241, 191, 53);
+    border-radius: 20px;
+    padding: 5px;
+    position: relative;
+    left:70px;
+    bottom: 20px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.product-name{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.color-comb{
+    display: flex;
+}
+.color-comb .div1{
+    height: 22px;
+    width: 22px;
+    background-color: black;
+   border-radius: 50%;
+
+}
+.color-comb .div2{
+    height: 22px;
+    width: 22px;
+    background-color: rgb(210, 195, 165);
+   border-radius: 50%;
+   position: relative;
+   right: 10px;
+
+}
+.addtocart button{
+    height: 35px;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.detail-con{
+    display: flex;
+    align-items: center;
+    
+    gap:60px ;
+}
+
+.components .vid{
+    height: 300px;
+    width: 310px;
+    background-color: #fbf9f9;
+    border-radius: 10px;
+    overflow: hidden; /* Ensure video doesn't overflow */
+    position: relative;
+    
+}
+.components {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+.bestSeller{
+    position: relative;
+    left: 310px;
+    margin-top: 40px;
+}
+.bestSeller p{
+    font-size: 20px;
+    
+}
+video{
+    height: 300px;
+    width: 310px;
+    border-radius: 20px;
+    /* transition: opacity 0.5s ease-in-out; */
+    cursor: pointer;
+  
+}
+.components .vid:hover video {
+    opacity: 1; /* Show video on hover */
+}
+.top-pics #heading{
+    font-size: 20px;
+    margin-left: 310px;
+}
+.top-pics{
+    margin-top: 50px;
+}
+.img5{
+    height: 330px;
+    width: 310px;
+    background-image: url("./card-2.1.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.img6{
+    height: 330px;
+    width: 310px;
+    background-image: url("./card2.2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.img7{
+    height: 330px;
+    width: 310px;
+    background-image: url("./card2.3.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.img8{
+    height: 330px;
+    width: 310px;
+    background-image: url("./card2.4.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.shop-by-lifestyle{
+    margin-top: 100px;
+    margin-left: 280px;
+}
+.shop-by-lifestyle p{
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+}
+.shop-by-lifestyle .pics-component{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 200px;
+}
+.shop-by-lifestyle .pics-component .pic{
+    height: 400px;
+    width: 335px;
+    background-color: #d7e2e7;
+    border-top-right-radius:50%;
+    border-top-left-radius:50%;
+    cursor: pointer;
+    transition: transform 1s ease;
+}
+.shop-by-lifestyle .pics-component .pic:hover{
+    transform: scale(0.95);
+
+}
+.shop-by-lifestyle .pics-component .pic img{
+    height: 500px;
+    width: 335px;
+    position: relative;
+    bottom: 200px;
+}
+.shop-by-lifestyle .pics-component .pic .bottom{
+    position: relative;
+    bottom: 180px;
+    left: 90px;
+}
+.shop-by-lifestyle .pics-component .pic .bottom p{
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+#viewall:hover{
+    color: red;
+
+}
+
+.best-of-boat .head{
+    font-size: 20px;
+    margin-left: 300px;
+}
+.card-section-2{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    left: 290px;
+}
+.card-section-2 .card{
+    height: 440px;
+    width: 330px;
+    background-color: rgb(231, 228, 228);
+    border-radius: 10px;
+    transition: transform 1s ease;
+    cursor: pointer;
+
+}
+.card-section-2 .card:hover{
+    transform: scale(0.95);
+    
+}
+.card-section-2 .card .img5{
+    height: 330px;
+    width: 330px;
+    background-image: url("airpod-1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.card-section-2 .card .img6{
+    height: 330px;
+    width: 330px;
+    background-image: url("airpod-2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.card-section-2 .card .img7{
+    height: 330px;
+    width: 330px;
+    background-image: url("airpod-3.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.card-section-2 .card .img8{
+    height: 330px;
+    width: 330px;
+    background-image: url("airpod-4.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.img9{
+    height: 330px;
+    width: 330px;
+    background-image: url("./Bestboat-1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.img10{
+    height: 330px;
+    width: 330px;
+    background-image: url("./Bestboat-2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.img11{
+    height: 330px;
+    width: 330px;
+    background-image: url("./Bestboat-3.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.img12{
+    height: 330px;
+    width: 330px;
+    background-image: url("./Bestboat-4.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.join-the-tribe{
+    margin-left: 270px;
+    margin-top: 50px;
+}
+.join-the-tribe .head{
+    font-size: 20px;
+
+
+}
+.video-sec{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.video-sec .vi{
+    height: 480px;
+    width: 210px;
+    background-color: #d7e2e7;
+    padding: 5px;
+   
+}
+#vido{
+   
+    position: relative;
+    right: 50px;
+    height: 380px;
+    border-radius: 20px;
+    
+   
+}
+.mid-img{
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    position: relative;
+    left: 80px;
+    bottom: 40px;
+    cursor: pointer;
+}
+.mid-img img{
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nam-dam{
+    position: relative;
+    bottom: 20px;
+}
